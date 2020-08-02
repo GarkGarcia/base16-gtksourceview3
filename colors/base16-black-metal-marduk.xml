@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ 
+ Base16 Black Metal (Marduk) - gtksourceview 3.0
+ metalelf0 (https://github.com/metalelf0)
+
+-->
+<style-scheme id="Black Metal (Marduk)" _name="Black Metal (Marduk)" version="1.0">
+  <author>metalelf0 (https://github.com/metalelf0)</author>
+  <_description>Black Metal (Marduk) Color Scheme</_description>
+
+  <!-- Palette -->
+  <color name="base00"                      value="#000000"/>
+  <color name="base01"                      value="#121212"/>
+  <color name="base02"                      value="#222222"/>
+  <color name="base03"                      value="#333333"/>
+  <color name="base04"                      value="#999999"/>
+  <color name="base05"                      value="#c1c1c1"/>
+  <color name="base06"                      value="#999999"/>
+  <color name="base07"                      value="#c1c1c1"/>
+  <color name="base08"                      value="#5f8787"/>
+  <color name="base09"                      value="#aaaaaa"/>
+  <color name="base0A"                      value="#626b67"/>
+  <color name="base0B"                      value="#a5aaa7"/>
+  <color name="base0C"                      value="#aaaaaa"/>
+  <color name="base0D"                      value="#888888"/>
+  <color name="base0E"                      value="#999999"/>
+  <color name="base0F"                      value="#444444"/>
+
+  <!-- Global Settings -->
+  <style name="text"                        foreground="base05" background="base00"/>
+  <style name="selection"                   foreground="base02"/>
+  <style name="current-line"                background="base02"/>
+  <style name="current-line-number"         bold="true"/>
+
+  <!-- Bracket Matching -->
+  <style name="bracket-match"               foreground="base06" background="base03"/>
+  <style name="bracket-mismatch"            foreground="base08"/>
+
+  <!-- Search Matching -->
+  <style name="search-match"                background="base0A"/>
+
+  <!-- Comments -->
+  <style name="def:comment"                 foreground="base03"/>
+  <style name="def:shebang"                 foreground="base03" bold="true"/>
+  <style name="def:doc-comment-element"     italic="true"/>
+
+  <!-- Constants -->
+  <style name="def:constant"                foreground="base09"/>
+  <style name="def:special-char"            foreground="base0C"/>
+
+  <!-- Identifiers -->
+  <style name="def:identifier"              foreground="base08"/>
+
+  <!-- Numbers -->
+  <style name="def:number"                  foreground="base09"/>
+
+  <!-- Booleans -->
+  <style name="def:boolean"                 foreground="base09"/>
+
+  <!-- Strings -->
+  <style name="def:string"                  foreground="base0B"/>
+
+  <!-- Functions and Methods -->
+  <style name="def:function"                foreground="base0D"/>
+
+  <!-- Headings -->
+  <style name="def:heading0"                foreground="base0D"/>
+  <style name="def:heading1"                use-style="def:heading0"/>
+  <style name="def:heading2"                use-style="def:heading0"/>
+  <style name="def:heading3"                use-style="def:heading0"/>
+  <style name="def:heading4"                use-style="def:heading0"/>
+  <style name="def:heading5"                use-style="def:heading0"/>
+  <style name="def:heading6"                use-style="def:heading0"/>
+
+  <!-- Statements -->
+  <style name="def:statement"               foreground="base0E" bold="true"/>
+
+  <!-- Types -->
+  <style name="def:type"                    foreground="base0A" bold="true"/>
+
+  <!-- Others -->
+  <style name="def:preprocessor"            foreground="base0F"/>
+  <style name="def:error"                   background="base08" bold="true"/>
+  <style name="def:warning"                 background="base0A"/>
+  <style name="def:underlined"              italic="true" underline="single"/>
+
+  <!-- Language specific styles -->
+  <style name="diff:added-line"             foreground="base0B"/>
+  <style name="diff:removed-line"           foreground="base08"/>
+  <style name="diff:changed-line"           foreground="base0E"/>
+
+  <style name="xml:tags"                    foreground="base08"/>
+  <style name="xml:attribute-name"          foreground="base09"/>
+
+</style-scheme>

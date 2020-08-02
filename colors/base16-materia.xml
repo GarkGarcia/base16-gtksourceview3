@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ 
+ Base16 Materia - gtksourceview 3.0
+ Defman21
+
+-->
+<style-scheme id="Materia" _name="Materia" version="1.0">
+  <author>Defman21</author>
+  <_description>Materia Color Scheme</_description>
+
+  <!-- Palette -->
+  <color name="base00"                      value="#263238"/>
+  <color name="base01"                      value="#2C393F"/>
+  <color name="base02"                      value="#37474F"/>
+  <color name="base03"                      value="#707880"/>
+  <color name="base04"                      value="#C9CCD3"/>
+  <color name="base05"                      value="#CDD3DE"/>
+  <color name="base06"                      value="#D5DBE5"/>
+  <color name="base07"                      value="#FFFFFF"/>
+  <color name="base08"                      value="#EC5F67"/>
+  <color name="base09"                      value="#EA9560"/>
+  <color name="base0A"                      value="#FFCC00"/>
+  <color name="base0B"                      value="#8BD649"/>
+  <color name="base0C"                      value="#80CBC4"/>
+  <color name="base0D"                      value="#89DDFF"/>
+  <color name="base0E"                      value="#82AAFF"/>
+  <color name="base0F"                      value="#EC5F67"/>
+
+  <!-- Global Settings -->
+  <style name="text"                        foreground="base05" background="base00"/>
+  <style name="selection"                   foreground="base02"/>
+  <style name="current-line"                background="base02"/>
+  <style name="current-line-number"         bold="true"/>
+
+  <!-- Bracket Matching -->
+  <style name="bracket-match"               foreground="base06" background="base03"/>
+  <style name="bracket-mismatch"            foreground="base08"/>
+
+  <!-- Search Matching -->
+  <style name="search-match"                background="base0A"/>
+
+  <!-- Comments -->
+  <style name="def:comment"                 foreground="base03"/>
+  <style name="def:shebang"                 foreground="base03" bold="true"/>
+  <style name="def:doc-comment-element"     italic="true"/>
+
+  <!-- Constants -->
+  <style name="def:constant"                foreground="base09"/>
+  <style name="def:special-char"            foreground="base0C"/>
+
+  <!-- Identifiers -->
+  <style name="def:identifier"              foreground="base08"/>
+
+  <!-- Numbers -->
+  <style name="def:number"                  foreground="base09"/>
+
+  <!-- Booleans -->
+  <style name="def:boolean"                 foreground="base09"/>
+
+  <!-- Strings -->
+  <style name="def:string"                  foreground="base0B"/>
+
+  <!-- Functions and Methods -->
+  <style name="def:function"                foreground="base0D"/>
+
+  <!-- Headings -->
+  <style name="def:heading0"                foreground="base0D"/>
+  <style name="def:heading1"                use-style="def:heading0"/>
+  <style name="def:heading2"                use-style="def:heading0"/>
+  <style name="def:heading3"                use-style="def:heading0"/>
+  <style name="def:heading4"                use-style="def:heading0"/>
+  <style name="def:heading5"                use-style="def:heading0"/>
+  <style name="def:heading6"                use-style="def:heading0"/>
+
+  <!-- Statements -->
+  <style name="def:statement"               foreground="base0E" bold="true"/>
+
+  <!-- Types -->
+  <style name="def:type"                    foreground="base0A" bold="true"/>
+
+  <!-- Others -->
+  <style name="def:preprocessor"            foreground="base0F"/>
+  <style name="def:error"                   background="base08" bold="true"/>
+  <style name="def:warning"                 background="base0A"/>
+  <style name="def:underlined"              italic="true" underline="single"/>
+
+  <!-- Language specific styles -->
+  <style name="diff:added-line"             foreground="base0B"/>
+  <style name="diff:removed-line"           foreground="base08"/>
+  <style name="diff:changed-line"           foreground="base0E"/>
+
+  <style name="xml:tags"                    foreground="base08"/>
+  <style name="xml:attribute-name"          foreground="base09"/>
+
+</style-scheme>
